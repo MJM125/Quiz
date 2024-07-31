@@ -79,12 +79,39 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'What is 2 + 2?',
+        question: 'What is 2 + 2 * 2?',
         answers: [
-            { text: '4', correct: true },
-            { text: '22', correct: false },
-            { text: '16', correct: false},
-            {text: '8', correct: false}
+            { text: '4', correct: false },
+            { text: '12', correct: false },
+            { text: '6', correct: false},
+            {text: '8', correct: true}
         ] 
+    },
+    {
+        question: 'What is the capital of America?',
+        answers: [
+            { text: 'Vancover', correct: false },
+            { text: 'Washington DC', correct: true },
+            { text: 'New York', correct: false },
+            { text: 'California', correct: false}
+        ]
+    },
+    {
+        question: 'Where is the sea of tranquility?',
+        answers: [
+            { text: 'Antartica', correct: false },
+            { text: 'The Moon', correct: true },
+            { text: 'Africa', correct: false },
+            { text: 'South America', correct: false}
+        ]
+    },
+    {
+        question: 'What is the deepest part of the ocean?',
+        answers: [
+            { text: 'Challenger Deep', correct: true },
+            { text: 'Mariana Trench', correct: false },
+            { text: 'Philippine Trench', correct: false },
+            { text: 'Tonga Trench', correct: false }
+        ]
     }
 ]
